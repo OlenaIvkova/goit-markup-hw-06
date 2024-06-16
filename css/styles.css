@@ -301,7 +301,7 @@ background-color: #404bbf;
             padding: 112px 0;
             max-width: 768px;
         }
-    
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1058,7 +1058,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 
 .modal-overlay.is-open {
-    opacity: 0;
+    opacity: 1;
     visibility: visible;
     pointer-events: auto;
 }
