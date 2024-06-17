@@ -265,7 +265,7 @@ background-color: #404bbf;
     position: fixed;
     top: 0;
     visibility: hidden;
-    opacity: 0;
+    opacity: 1;
     pointer-events: none;
     padding: 24px 24px 16px 16px;
     display: flex;
@@ -276,7 +276,7 @@ background-color: #404bbf;
 }
 
 .is-open {
-    opacity: 0;
+    opacity: 1;
     pointer-events: none;
 }
 
@@ -939,12 +939,11 @@ background-color: #404BBF;
 /* Our Portfolio */
 
 .our-portfolio {
-    .our-portfolio {
-        /* padding-top: 120px; 
-        padding-bottom: 120px;  */
-        padding-top: 96px; 
-        padding-bottom: 96px;
-    } 
+  /* padding-top: 120px; 
+ padding-bottom: 120px;  */
+ padding-top: 96px; 
+ padding-bottom: 96px;
+
 }
 
 @media screen and (min-width: 768px) {
